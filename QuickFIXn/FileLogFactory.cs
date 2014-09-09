@@ -2,7 +2,7 @@
 namespace QuickFix
 {
     /// <summary>
-    /// Creates a message store that stores messages in a file
+    /// Creates a event and messages store that stores messages and events in a sql database
     /// </summary>
     public class FileLogFactory : ILogFactory
     {
